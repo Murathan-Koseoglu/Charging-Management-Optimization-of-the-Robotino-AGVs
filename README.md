@@ -16,9 +16,9 @@ The project includes three related implementations:
 
 | Stage | Implementation | Key functionality |
 | --- | --- | --- |
-| **1. Fleet simulation** | [`Simulation.py`](Project_Submission/Simulation.py) | Simulates battery consumption, recharging, task allocation, charger occupancy, and operational/charging queues for six Robotinos, with a Dash/Plotly dashboard. |
-| **2. Manual fleet control** | [`Manual Version.py`](Project_Submission/Manual%20Version.py) | Uses TCP communication to obtain fleet-state messages and issue manually triggered movement and docking commands. |
-| **3. Automated charging** | [`Final_version.py`](Project_Submission/Final_version.py) | Estimates battery percentages, detects low-battery robots, selects compatible nearby charging stations, and generates movement and docking commands. |
+| **1. Fleet simulation** | [`Simulation.py`](src/Simulation.py) | Simulates battery consumption, recharging, task allocation, charger occupancy, and operational/charging queues for six Robotinos, with a Dash/Plotly dashboard. |
+| **2. Manual fleet control** | [`Manual Version.py`](src/Manual%20Version.py) | Uses TCP communication to obtain fleet-state messages and issue manually triggered movement and docking commands. |
+| **3. Automated charging** | [`Final_version.py`](src/Final_version.py) | Estimates battery percentages, detects low-battery robots, selects compatible nearby charging stations, and generates movement and docking commands. |
 
 The **automated charging prototype** is the final submitted implementation. The simulation and manual-control versions document the preceding development stages.
 
