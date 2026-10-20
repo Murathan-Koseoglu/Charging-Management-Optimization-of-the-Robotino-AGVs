@@ -1,4 +1,4 @@
-# Robotino AGV Charging Management Optimization
+#  Charging Management Optimization of the Robotino AGVs
 
 **Python | Manufacturing Automation | Intralogistics | AGV Fleet Management**
 
