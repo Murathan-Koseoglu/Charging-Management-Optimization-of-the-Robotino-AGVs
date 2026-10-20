@@ -1,0 +1,10 @@
+# Fleet simulation dashboard (src/Simulation.py uses app.run_server, removed in Dash 3)
+dash>=2.0,<3.0
+dash-bootstrap-components
+plotly
+
+# Prototypes (prototypes/)
+requests
+plyer
+
+# The control programs in src/ (manual_version.py, Final_version.py) use only the Python standard library.
